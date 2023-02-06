@@ -10,3 +10,8 @@ sh testcode.sh <question name>
 ```
 
 For example, `sh testcode.sh b` would run the test for question b
+
+If you don't have that installed, you can also run each script manually by doing `python <program>.py < <inputfile>`. For example:
+```
+python a.py < sampledata/a/2.in
+```
